@@ -1,0 +1,219 @@
+.my_navbar {
+  width: 100%;
+  position: relative;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  height: 4rem;
+  line-height: 4rem;
+  justify-content: flex-end;
+  padding: 1rem .8rem;
+  box-shadow: 0 3px 3px -2px rgb(39 44 51 / 10%), 0 3px 4px 0 rgb(39 44 51 / 4%), 0 1px 8px 0 rgb(39 44 51/2%);
+  pointer-events: auto;
+}
+.login_btn_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: .3rem 1.7rem;
+  border: solid 2px #000;
+  border-radius: 5px;  
+}
+.login_btn {  
+  cursor: pointer;
+  color: #000;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.login_btn:hover {
+  color: inherit;
+}
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+.menu_right_buttons{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+/* Menu */
+.menu_list {
+  margin-left: 17%;
+}
+.menu_list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.menu_list li {
+  margin: 0 10px;
+  display: inline-block;
+}
+.menu_list a {
+  color: rgba(39, 44, 51, 0.5);
+  text-decoration: none;
+  font-weight: 500;
+}
+.menu_list a:hover {
+  color: rgba(39, 44, 51, 0.7);
+}
+/* Menu */
+
+/*custom sidebar*/
+.custom_sidebar {
+  height: 100%;
+  background: #fff;
+  border-right: 1px solid #eeeeee;
+  padding: 0px 25px;
+  pointer-events: auto;
+}
+.sidebar_menu_name {
+  margin: 10px 0;
+  padding: 15px 15px;
+  color: #777281;
+  transition: 0.2s;
+  cursor: pointer;
+  overflow-y: auto;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+.sidebar_menu_name ion-icon {
+  font-size: 23px;
+  margin-right: 10px;
+}
+.sidebar_menu_name Link {
+  color: inherit;
+  text-decoration: none;
+}
+.sidebar_menu_name:hover {
+  opacity: 0.9;
+}
+.custom_logo {
+  width: 300px;
+  height: 70%;
+  display: block;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+.sidebar_profile{
+  margin-top: 10px;
+  margin-bottom: 60px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  background-color: #fafafa;
+}
+.sidebar_profile_image{
+  margin-right: 15px;
+}
+.sidebar_profile_image img{
+  width:40px;
+  height:40px;
+  border:2px solid #fff;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.sidebar_profile_text{
+  color: #111;
+  line-height: 1.3;
+}
+.sidebar_profile_text div{
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.sidebar_profile_text small{
+  color:#777;
+}
+@media (max-width: 768px) {
+  .custom_sidebar {
+    display: none;
+  }
+  .my_navbar {
+    width: 100%;
+  }
+  .login_btn {
+    display: none;    
+  }
+  .login_btn_container {
+    padding: .3rem .6rem;
+  }
+  .sm_btn_hidden {
+    display: none;
+  }
+  .menu_list {
+    display: none;
+  }
+  .search_box {
+    display: none;
+  }
+  .other_options {
+    justify-content: flex-end;
+  }
+  .login_box{
+    min-width: 90%;
+  }
+  .course_card{
+    margin-bottom: 20px;
+  }
+
+  /* mobile menu css */
+  .none-wrap {
+    display: none;
+  }
+
+  .link-wrap {
+    display: block;
+    background: #fff;
+    z-index: 11111;
+    color: #777281;
+    padding: 25px 0x;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width:100%;
+    box-shadow: 0 3px 3px -2px rgb(39 44 51 / 10%), 0 3px 4px 0 rgb(39 44 51 / 4%),0 1px 8px 0 rgb(39 44 51/2%);
+    transition: 0.5s;
+  }
+ 
+  .mobile_menu_close{
+    position: relative;
+    right: 10px;
+    top: 30px;
+  }
+  .mobile_menu_close button{
+    background-color: transparent;
+    color:#000;
+    outline: none;
+    box-shadow: none;
+    border: none;
+  }
+  .mobile_menu_close ion-icon{
+    font-size: 30px;
+  }
+/*
+  .slideIn {
+    transform: translateX(-100%);
+  }
+  .slideOut {
+    transform: translateX(0%);
+    padding: 20px;
+  }
+*/
+  #hamburger {
+    display: flex;
+    position: relative;
+    cursor: pointer;
+  }
+  #hamburger ion-icon{
+    font-size: 40px;
+  }
+}

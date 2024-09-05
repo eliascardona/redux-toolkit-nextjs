@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+/*  font-family: 'Nunito', sans-serif;  */
+/*  font-family: 'Rubik', sans-serif;  */
+.ctn {
+	width: 100%;
+	display: grid;
+}
+
+.pageLy {
+  width: 98%;
+	height: 78vh;
+	display: grid;
+  justify-self: center;
+	border-bottom: .5em dashed #000;
+}

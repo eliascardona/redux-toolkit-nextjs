@@ -1,0 +1,36 @@
+.courseCard {
+	position: relative;
+	width: 100%;
+	margin-bottom: .8rem;
+	border: 1px solid #dfe2e6;
+	border-radius: 0.5rem;
+	background-color: #fff;
+	background-clip: border-box;
+	cursor: pointer;
+}
+
+.courseImage {
+	height: 230px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.courseContent {
+	padding: .7em 0 .7em .7em;
+	position: relative;
+	z-index: 1;
+	background-color: #fff;
+	width: 97%;
+	bottom: 0;
+}
+
+.cardLink {
+    color: inherit;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+

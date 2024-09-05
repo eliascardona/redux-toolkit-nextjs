@@ -1,0 +1,26 @@
+.LineHeader {
+	width: 88%;
+	display: grid;
+	grid-auto-flow: column;
+	grid-auto-columns: 32% 66%;
+	padding-top: 1em;
+	padding-left: 2.5em;
+}
+
+.spanAux {
+	display: inherit;
+	align-self: center;
+}
+
+.miniCtn {
+	display: inherit;
+	align-self: center;
+}
+
+.miniLine {
+	height: 3px;
+	width: 98%;
+	display: inherit;
+	justify-self: center;
+	border-bottom: 1px solid #444;
+}

@@ -1,0 +1,71 @@
+.main-container{
+    padding: 2rem;
+}
+
+.btn{
+    text-decoration: none;
+    border: solid 1px rgba(128, 128, 128, 0.615);
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    color: black;
+    
+}
+
+.header{
+    text-align: center;
+}
+ul {
+    list-style: none;
+    text-transform: capitalize;
+}
+
+
+.ul-types {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+ul> li{
+    margin: 0;
+}
+.flex {
+    display: flex;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+}
+.info div {
+    display: flex;
+    gap:10px;
+}
+
+.stats-container {
+    width: 100%;
+}
+
+.stats-container div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.prog-container{
+    display: flex;
+    gap: 5px;
+}
+
+
+.abilities-container {
+    width: 60%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#progress{
+    height: 23px;
+}

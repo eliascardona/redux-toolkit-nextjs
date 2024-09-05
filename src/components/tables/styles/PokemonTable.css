@@ -1,0 +1,21 @@
+.pk-table{
+    height: 95vh; 
+}
+
+.button-container{
+    margin: 5px auto;
+    display: flex;
+    gap: 1rem;
+    width: 65%;
+}
+
+.button-container button{
+    padding: .5rem;
+    border-radius: 10px;
+    border: solid 1px rgba(128, 128, 128, 0.505);
+}
+
+.button-container button:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+}

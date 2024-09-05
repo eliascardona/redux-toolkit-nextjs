@@ -1,0 +1,15 @@
+.Sidebar{
+    height: 100vh;
+    border-right: solid 2px rgba(128, 128, 128, 0.401);
+    box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.401);;
+    clip-path: inset(0px -15px 0px 0px);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-img{
+    padding-top: 1rem;
+}

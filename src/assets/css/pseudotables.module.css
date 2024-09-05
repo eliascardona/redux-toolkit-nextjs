@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap');
+
+.row {
+	width: 90%;
+	display: grid;
+	grid-auto-flow: column;
+	grid-auto-columns: 50% 50%;
+	justify-self: center;
+	place-items: center;
+	padding: 0.4em 1.4em;
+	margin: 0.5em 0;
+	border-radius: .5em;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 2px 5px 0px;
+	background-color: #fff;
+}
+
+.userRow {
+	width: 90%;
+	display: grid;
+	grid-auto-flow: column;
+	grid-auto-columns: 50% 50%;
+	justify-self: center;
+	place-items: center;
+	padding: 0.4em 1.4em;
+	margin: 0.5em 0;
+	border-radius: .5em;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 2px 5px 0px;
+	background-color: #fff;
+}
+
+.headRow {
+	height: min-content;
+	width: 85%;
+	display: grid;
+	grid-auto-flow: column;
+	grid-auto-columns: 28% 42% 28%;
+	justify-self: center;
+	justify-items: center;
+	padding: 1em 1em 1em 1.4em;
+	margin-top: 1em;
+	border-radius: .5em;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 2px 5px 0px;
+	background-color: #fff;
+}
+
+.title {
+	font-size: 1.5em;
+	font-family: 'Dongle', sans-serif;
+}
+
+.highlightedLink {
+	color: #1e54a5;
+	font-size: 1.5em;
+	font-family: 'Dongle', sans-serif;
+	text-decoration: underline;
+}
+
+.link {
+	font-size: 1.5em;
+	font-family: 'Dongle', sans-serif;
+	text-decoration: none;
+}

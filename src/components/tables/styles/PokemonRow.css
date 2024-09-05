@@ -1,0 +1,22 @@
+.Row {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin:3px auto; 
+    border:solid #ddd; 
+    border-radius:10px; 
+    height:28px;
+    cursor:pointer;
+    font-size: 16px;
+    width: 60%;
+    padding: 0 1rem;
+    text-transform: capitalize;
+
+
+}
+
+.Row:hover {
+    background-color: beige;
+
+}
+
