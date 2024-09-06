@@ -1,31 +1,23 @@
 import { usePathname, useRouter, useSearchParams } from 'next/navigation'
-import { createContext } from 'react'
+import { createContext, useEffect, useState } from 'react'
+import { setSingleURLParam, setURLParamsArray } from '../utils/URLParams'
 
-const SearchParamasContext = createContext({
-    a: () => '',
-})
+const SearchParamasContext = createContext([''])
 
 const SearchParamasProvider = ({ children }) => {
-    // ContextProvider code starts below
-    const pathname = usePathname()
-    const { replace } = useRouter()
-    const searchParams = useSearchParams()
+    // const pathname = usePathname()
+    // const searchParams = useSearchParams()
+    const [searchParamsValue, setSearchParamsValue] = useState([''])
 
-    const searchParamsCallback = (name, value) => {
-        const params = new URLSearchParams(searchParams)
-        const parsedSearchParams = params.toString()
+    useEffect(() => {
+        return () => {
+            sea(p => p)
+        }
+    },[searchParamsValue])
 
-        params.set(`${name}`, value)
-        replace(
-            `${pathname}?${parsedSearchParams}`
-        )
-        const searchParamValue = `${value}`
-
-        return searchParamValue
-    }
 
 	return (
-		<SearchParamasContext.Provider value={{searchParamsCallback}}>
+		<SearchParamasContext.Provider value={{searchParamsValue, setSearchParamsValue}}>
 			{children}
 		</SearchParamasContext.Provider>
 	)
